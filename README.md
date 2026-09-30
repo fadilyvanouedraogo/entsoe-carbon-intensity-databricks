@@ -46,7 +46,7 @@ The ENTSO-E API key is never written in the code: it is stored as a Unity Catalo
 
 ## 3. Data model
 
-![D1 relational schema](images/d1_relational_schema.png)
+![D1 relational schema](d1_relational_schema.png)
 
 * **Dimensions:** `dim_date` and `dim_hour` (Brussels local time), `dim_zone`, `dim_production_type`
   (with the emission factors).

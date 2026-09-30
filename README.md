@@ -2,7 +2,7 @@
 
 **ENTSO-E · Databricks · Unity Catalog · Delta Lake · Power BI**
 
-![D1 pipeline](images/d1_pipeline.svg)
+![D1 pipeline](d1_pipeline.svg)
 
 ## 1. Why and what?
 

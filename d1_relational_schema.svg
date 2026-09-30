@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1260 1010" width="1260" height="1010" font-family="DejaVu Sans, Arial, sans-serif">
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#111"/></marker></defs>
+<rect width="1260" height="1010" fill="#FFFFFF"/>
+<text x="30" y="40" font-size="20" font-weight="bold" fill="#111">D1 · Hourly carbon intensity — relational schema</text>
+<text x="30" y="64" font-size="12.5" fill="#444">Silver sources (left) · Gold star schema in energy.d1_gold: 3 fact tables, 4 dimensions</text>
+<text x="30" y="84" font-size="12" fill="#444"><tspan font-weight="bold">bold underlined</tspan> = key (grain)   <tspan font-style="italic" fill="#1F3FBF">italic blue</tspan> = foreign key (NOT ENFORCED, Unity Catalog)</text>
+<path d="M590 184.5 C740 184.5 810 147.5 958 147.5" fill="none" stroke="#111" stroke-width="1.1" marker-end="url(#a)"/>
+<path d="M590 201.5 C740 201.5 810 417.5 958 417.5" fill="none" stroke="#111" stroke-width="1.1" marker-end="url(#a)"/>
+<path d="M590 167.5 C740 167.5 810 547.5 958 547.5" fill="none" stroke="#111" stroke-width="1.1" marker-end="url(#a)"/>
+<path d="M590 681.5 C740 681.5 810 150.5 958 150.5" fill="none" stroke="#111" stroke-width="1.1" marker-end="url(#a)"/>
+<path d="M590 698.5 C740 698.5 810 420.5 958 420.5" fill="none" stroke="#111" stroke-width="1.1" marker-end="url(#a)"/>
+<path d="M590 647.5 C740 647.5 810 550.5 958 550.5" fill="none" stroke="#111" stroke-width="1.1" marker-end="url(#a)"/>
+<path d="M590 664.5 C740 664.5 810 737.5 958 737.5" fill="none" stroke="#111" stroke-width="1.1" marker-end="url(#a)"/>
+<path d="M590 891.5 C740 891.5 810 153.5 958 153.5" fill="none" stroke="#111" stroke-width="1.1" marker-end="url(#a)"/>
+<path d="M590 908.5 C740 908.5 810 423.5 958 423.5" fill="none" stroke="#111" stroke-width="1.1" marker-end="url(#a)"/>
+<path d="M590 857.5 C740 857.5 810 553.5 958 553.5" fill="none" stroke="#111" stroke-width="1.1" marker-end="url(#a)"/>
+<path d="M590 874.5 C740 874.5 810 556.5 958 556.5" fill="none" stroke="#111" stroke-width="1.1" marker-end="url(#a)"/>
+<rect x="33" y="113" width="250" height="121" fill="#9A9A9A"/>
+<rect x="30" y="110" width="250" height="121" fill="#D4D4D4" stroke="#222" stroke-width="1.2"/>
+<line x1="30" y1="136" x2="280" y2="136" stroke="#222" stroke-width="1.2"/>
+<text x="155.0" y="128" font-size="13.5" font-weight="bold" text-anchor="middle" fill="#111">silver_generation_hourly</text>
+<text x="38" y="154.5" font-size="12" font-weight="bold" text-decoration="underline" fill="#111">zone_code</text>
+<line x1="38" y1="156.5" x2="104.6" y2="156.5" stroke="#111" stroke-width="1"/>
+<text x="38" y="171.5" font-size="12" font-weight="bold" text-decoration="underline" fill="#111">ts_utc</text>
+<line x1="38" y1="173.5" x2="82.4" y2="173.5" stroke="#111" stroke-width="1"/>
+<text x="38" y="188.5" font-size="12" font-weight="bold" text-decoration="underline" fill="#111">psr_code</text>
+<line x1="38" y1="190.5" x2="97.2" y2="190.5" stroke="#111" stroke-width="1"/>
+<text x="38" y="205.5" font-size="12" fill="#111">generation_mwh</text>
+<text x="38" y="222.5" font-size="12" fill="#111">n_points</text>
+<rect x="33" y="263" width="250" height="104" fill="#9A9A9A"/>
+<rect x="30" y="260" width="250" height="104" fill="#D4D4D4" stroke="#222" stroke-width="1.2"/>
+<line x1="30" y1="286" x2="280" y2="286" stroke="#222" stroke-width="1.2"/>
+<text x="155.0" y="278" font-size="13.5" font-weight="bold" text-anchor="middle" fill="#111">silver_load_hourly</text>
+<text x="38" y="304.5" font-size="12" font-weight="bold" text-decoration="underline" fill="#111">zone_code</text>
+<line x1="38" y1="306.5" x2="104.6" y2="306.5" stroke="#111" stroke-width="1"/>
+<text x="38" y="321.5" font-size="12" font-weight="bold" text-decoration="underline" fill="#111">ts_utc</text>
+<line x1="38" y1="323.5" x2="82.4" y2="323.5" stroke="#111" stroke-width="1"/>
+<text x="38" y="338.5" font-size="12" fill="#111">load_mwh</text>
+<text x="38" y="355.5" font-size="12" fill="#111">n_points</text>
+<rect x="33" y="393" width="250" height="104" fill="#9A9A9A"/>
+<rect x="30" y="390" width="250" height="104" fill="#D4D4D4" stroke="#222" stroke-width="1.2"/>
+<line x1="30" y1="416" x2="280" y2="416" stroke="#222" stroke-width="1.2"/>
+<text x="155.0" y="408" font-size="13.5" font-weight="bold" text-anchor="middle" fill="#111">silver_flows_hourly</text>
+<text x="38" y="434.5" font-size="12" font-weight="bold" text-decoration="underline" fill="#111">from_zone</text>
+<line x1="38" y1="436.5" x2="104.6" y2="436.5" stroke="#111" stroke-width="1"/>
+<text x="38" y="451.5" font-size="12" font-weight="bold" text-decoration="underline" fill="#111">to_zone</text>
+<line x1="38" y1="453.5" x2="89.8" y2="453.5" stroke="#111" stroke-width="1"/>
+<text x="38" y="468.5" font-size="12" font-weight="bold" text-decoration="underline" fill="#111">ts_utc</text>
+<line x1="38" y1="470.5" x2="82.4" y2="470.5" stroke="#111" stroke-width="1"/>
+<text x="38" y="485.5" font-size="12" fill="#111">flow_mwh</text>
+<rect x="343" y="113" width="250" height="444" fill="#9A9A9A"/>
+<rect x="340" y="110" width="250" height="444" fill="#D4D4D4" stroke="#222" stroke-width="1.2"/>
+<line x1="340" y1="136" x2="590" y2="136" stroke="#222" stroke-width="1.2"/>
+<text x="465.0" y="128" font-size="13.5" font-weight="bold" text-anchor="middle" fill="#111">fact_carbon_hourly</text>
+<text x="348" y="154.5" font-size="12" font-weight="bold" text-decoration="underline" fill="#111">ts_utc</text>
+<line x1="348" y1="156.5" x2="392.4" y2="156.5" stroke="#111" stroke-width="1"/>
+<text x="348" y="171.5" font-size="12" font-weight="bold" text-decoration="underline" font-style="italic" fill="#1F3FBF">zone_code</text>
+<line x1="348" y1="173.5" x2="416.4" y2="173.5" stroke="#1F3FBF" stroke-width="1"/>
+<text x="348" y="188.5" font-size="12" font-style="italic" fill="#1F3FBF">date_key</text>
+<text x="348" y="205.5" font-size="12" font-style="italic" fill="#1F3FBF">hour_key</text>
+<text x="348" y="222.5" font-size="12" fill="#111">datetime_local</text>
+<text x="348" y="239.5" font-size="12" fill="#111">production_mwh</text>
+<text x="348" y="256.5" font-size="12" fill="#111">load_mwh</text>
+<text x="348" y="273.5" font-size="12" fill="#111">imports_mwh</text>
+<text x="348" y="290.5" font-size="12" fill="#111">exports_mwh</text>
+<text x="348" y="307.5" font-size="12" fill="#111">net_imports_mwh</text>
+<text x="348" y="324.5" font-size="12" fill="#111">renewable_mwh</text>
+<text x="348" y="341.5" font-size="12" fill="#111">low_carbon_mwh</text>
+<text x="348" y="358.5" font-size="12" fill="#111">emissions_production_lca_t</text>
+<text x="348" y="375.5" font-size="12" fill="#111">emissions_production_direct_t</text>
+<text x="348" y="392.5" font-size="12" fill="#111">emissions_consumption_lca_t</text>
+<text x="348" y="409.5" font-size="12" fill="#111">emissions_consumption_direct_t</text>
+<text x="348" y="426.5" font-size="12" fill="#111">imported_emissions_lca_t</text>
+<text x="348" y="443.5" font-size="12" fill="#111">imported_emissions_direct_t</text>
+<text x="348" y="460.5" font-size="12" fill="#111">ci_production_lca_g_kwh</text>
+<text x="348" y="477.5" font-size="12" fill="#111">ci_consumption_lca_g_kwh</text>
+<text x="348" y="494.5" font-size="12" fill="#111">ci_production_direct_g_kwh</text>
+<text x="348" y="511.5" font-size="12" fill="#111">ci_consumption_direct_g_kwh</text>
+<text x="348" y="528.5" font-size="12" fill="#111">imports_fallback_ci_mwh</text>
+<text x="348" y="545.5" font-size="12" fill="#111">is_flow_traced</text>
+<rect x="343" y="593" width="250" height="189" fill="#9A9A9A"/>
+<rect x="340" y="590" width="250" height="189" fill="#D4D4D4" stroke="#222" stroke-width="1.2"/>
+<line x1="340" y1="616" x2="590" y2="616" stroke="#222" stroke-width="1.2"/>
+<text x="465.0" y="608" font-size="13.5" font-weight="bold" text-anchor="middle" fill="#111">fact_generation_hourly</text>
+<text x="348" y="634.5" font-size="12" font-weight="bold" text-decoration="underline" fill="#111">ts_utc</text>
+<line x1="348" y1="636.5" x2="392.4" y2="636.5" stroke="#111" stroke-width="1"/>
+<text x="348" y="651.5" font-size="12" font-weight="bold" text-decoration="underline" font-style="italic" fill="#1F3FBF">zone_code</text>
+<line x1="348" y1="653.5" x2="416.4" y2="653.5" stroke="#1F3FBF" stroke-width="1"/>
+<text x="348" y="668.5" font-size="12" font-weight="bold" text-decoration="underline" font-style="italic" fill="#1F3FBF">psr_code</text>
+<line x1="348" y1="670.5" x2="408.8" y2="670.5" stroke="#1F3FBF" stroke-width="1"/>
+<text x="348" y="685.5" font-size="12" font-style="italic" fill="#1F3FBF">date_key</text>
+<text x="348" y="702.5" font-size="12" font-style="italic" fill="#1F3FBF">hour_key</text>
+<text x="348" y="719.5" font-size="12" fill="#111">datetime_local</text>
+<text x="348" y="736.5" font-size="12" fill="#111">generation_mwh</text>
+<text x="348" y="753.5" font-size="12" fill="#111">emissions_lca_t</text>
+<text x="348" y="770.5" font-size="12" fill="#111">emissions_direct_t</text>
+<rect x="343" y="803" width="250" height="189" fill="#9A9A9A"/>
+<rect x="340" y="800" width="250" height="189" fill="#D4D4D4" stroke="#222" stroke-width="1.2"/>
+<line x1="340" y1="826" x2="590" y2="826" stroke="#222" stroke-width="1.2"/>
+<text x="465.0" y="818" font-size="13.5" font-weight="bold" text-anchor="middle" fill="#111">fact_flow_hourly</text>
+<text x="348" y="844.5" font-size="12" font-weight="bold" text-decoration="underline" fill="#111">ts_utc</text>
+<line x1="348" y1="846.5" x2="392.4" y2="846.5" stroke="#111" stroke-width="1"/>
+<text x="348" y="861.5" font-size="12" font-weight="bold" text-decoration="underline" font-style="italic" fill="#1F3FBF">from_zone_code</text>
+<line x1="348" y1="863.5" x2="454.4" y2="863.5" stroke="#1F3FBF" stroke-width="1"/>
+<text x="348" y="878.5" font-size="12" font-weight="bold" text-decoration="underline" font-style="italic" fill="#1F3FBF">to_zone_code</text>
+<line x1="348" y1="880.5" x2="439.2" y2="880.5" stroke="#1F3FBF" stroke-width="1"/>
+<text x="348" y="895.5" font-size="12" font-style="italic" fill="#1F3FBF">date_key</text>
+<text x="348" y="912.5" font-size="12" font-style="italic" fill="#1F3FBF">hour_key</text>
+<text x="348" y="929.5" font-size="12" fill="#111">datetime_local</text>
+<text x="348" y="946.5" font-size="12" fill="#111">flow_mwh</text>
+<text x="348" y="963.5" font-size="12" fill="#111">embedded_emissions_lca_t</text>
+<text x="348" y="980.5" font-size="12" fill="#111">embedded_emissions_direct_t</text>
+<rect x="963" y="113" width="250" height="240" fill="#9A9A9A"/>
+<rect x="960" y="110" width="250" height="240" fill="#D4D4D4" stroke="#222" stroke-width="1.2"/>
+<line x1="960" y1="136" x2="1210" y2="136" stroke="#222" stroke-width="1.2"/>
+<text x="1085.0" y="128" font-size="13.5" font-weight="bold" text-anchor="middle" fill="#111">dim_date</text>
+<text x="968" y="154.5" font-size="12" font-weight="bold" text-decoration="underline" fill="#111">date_key</text>
+<line x1="968" y1="156.5" x2="1027.2" y2="156.5" stroke="#111" stroke-width="1"/>
+<text x="968" y="171.5" font-size="12" fill="#111">date</text>
+<text x="968" y="188.5" font-size="12" fill="#111">year</text>
+<text x="968" y="205.5" font-size="12" fill="#111">quarter_label</text>
+<text x="968" y="222.5" font-size="12" fill="#111">month_num</text>
+<text x="968" y="239.5" font-size="12" fill="#111">month_label</text>
+<text x="968" y="256.5" font-size="12" fill="#111">year_month</text>
+<text x="968" y="273.5" font-size="12" fill="#111">iso_week</text>
+<text x="968" y="290.5" font-size="12" fill="#111">day_of_week_num</text>
+<text x="968" y="307.5" font-size="12" fill="#111">day_label</text>
+<text x="968" y="324.5" font-size="12" fill="#111">is_weekend</text>
+<text x="968" y="341.5" font-size="12" fill="#111">season_label</text>
+<rect x="963" y="383" width="250" height="104" fill="#9A9A9A"/>
+<rect x="960" y="380" width="250" height="104" fill="#D4D4D4" stroke="#222" stroke-width="1.2"/>
+<line x1="960" y1="406" x2="1210" y2="406" stroke="#222" stroke-width="1.2"/>
+<text x="1085.0" y="398" font-size="13.5" font-weight="bold" text-anchor="middle" fill="#111">dim_hour</text>
+<text x="968" y="424.5" font-size="12" font-weight="bold" text-decoration="underline" fill="#111">hour_key</text>
+<line x1="968" y1="426.5" x2="1027.2" y2="426.5" stroke="#111" stroke-width="1"/>
+<text x="968" y="441.5" font-size="12" fill="#111">hour_label</text>
+<text x="968" y="458.5" font-size="12" fill="#111">day_period</text>
+<text x="968" y="475.5" font-size="12" fill="#111">is_peak</text>
+<rect x="963" y="513" width="250" height="172" fill="#9A9A9A"/>
+<rect x="960" y="510" width="250" height="172" fill="#D4D4D4" stroke="#222" stroke-width="1.2"/>
+<line x1="960" y1="536" x2="1210" y2="536" stroke="#222" stroke-width="1.2"/>
+<text x="1085.0" y="528" font-size="13.5" font-weight="bold" text-anchor="middle" fill="#111">dim_zone</text>
+<text x="968" y="554.5" font-size="12" font-weight="bold" text-decoration="underline" fill="#111">zone_code</text>
+<line x1="968" y1="556.5" x2="1034.6" y2="556.5" stroke="#111" stroke-width="1"/>
+<text x="968" y="571.5" font-size="12" fill="#111">zone_label</text>
+<text x="968" y="588.5" font-size="12" fill="#111">country</text>
+<text x="968" y="605.5" font-size="12" fill="#111">latitude</text>
+<text x="968" y="622.5" font-size="12" fill="#111">longitude</text>
+<text x="968" y="639.5" font-size="12" fill="#111">is_modeled</text>
+<text x="968" y="656.5" font-size="12" fill="#111">fallback_ci_lca_g_kwh</text>
+<text x="968" y="673.5" font-size="12" fill="#111">fallback_ci_direct_g_kwh</text>
+<rect x="963" y="703" width="250" height="189" fill="#9A9A9A"/>
+<rect x="960" y="700" width="250" height="189" fill="#D4D4D4" stroke="#222" stroke-width="1.2"/>
+<line x1="960" y1="726" x2="1210" y2="726" stroke="#222" stroke-width="1.2"/>
+<text x="1085.0" y="718" font-size="13.5" font-weight="bold" text-anchor="middle" fill="#111">dim_production_type</text>
+<text x="968" y="744.5" font-size="12" font-weight="bold" text-decoration="underline" fill="#111">psr_code</text>
+<line x1="968" y1="746.5" x2="1027.2" y2="746.5" stroke="#111" stroke-width="1"/>
+<text x="968" y="761.5" font-size="12" fill="#111">production_type</text>
+<text x="968" y="778.5" font-size="12" fill="#111">psr_label</text>
+<text x="968" y="795.5" font-size="12" fill="#111">category</text>
+<text x="968" y="812.5" font-size="12" fill="#111">is_renewable</text>
+<text x="968" y="829.5" font-size="12" fill="#111">is_low_carbon</text>
+<text x="968" y="846.5" font-size="12" fill="#111">ef_lifecycle_g_kwh</text>
+<text x="968" y="863.5" font-size="12" fill="#111">ef_direct_g_kwh</text>
+<text x="968" y="880.5" font-size="12" fill="#111">color_hex</text>
+</svg>

@@ -1,0 +1,22 @@
+# secrets and local configuration
+.env
+*.env
+
+# local runs (DuckDB / Parquet exports)
+*.duckdb
+*.duckdb.wal
+d*_data/
+*.parquet
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+
+# Power BI working files
+*.pbix
+*.pbit
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/

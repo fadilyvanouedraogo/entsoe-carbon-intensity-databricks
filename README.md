@@ -84,6 +84,11 @@ switchable in Power BI:
 **Consumption intensity (flow tracing).** For each hour, the intensity *c* of the electricity mix of each
 modeled zone *n* follows from:
 
+```math
+c_n \left( P_n + \sum_{k} F_{k \to n} \right) \;=\; E_n + \sum_{k} c_k \, F_{k \to n}
+```
+
+
 ```
 c_n × (P_n + imports into n) = E_n + Σ over origins k of (c_k × F_k→n)
 ```
